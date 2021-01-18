@@ -10349,5 +10349,96 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+body {
+  background: #fff;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+header {
+  background: #ffc107;
+  padding: 22px 24px;
+}
+header form input[type=text] {
+  background: #fff;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+}
+header form button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 30px;
+}
+header ul li {
+  position: relative;
+}
+header ul li span.notificacao {
+  color: #fff;
+  background: #ff0f9a;
+  position: absolute;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  border-radius: 30px;
+  top: -10px;
+  left: 3px;
+}
+header ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #343a40;
+  text-transform: uppercase;
+}
+header ul li a svg {
+  font-size: 10px !important;
+  padding-right: 5px;
+}
+header ul li a:hover {
+  color: initial;
+}
+
+nav.nav-produtos {
+  background: #343a40;
+  color: #fff;
+  cursor: pointer;
+}
+nav.nav-produtos ul.nav li {
+  position: relative;
+  padding: 10px;
+  width: 200px;
+}
+nav.nav-produtos ul.nav li svg {
+  margin-right: 5px;
+}
+nav.nav-produtos ul.nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+nav.nav-produtos ul.nav li:hover {
+  background: black;
+  color: #fff;
+}
+nav.nav-produtos ul.nav li:hover ul.nav {
+  display: block;
+}
+nav.nav-produtos ul.nav li ul.nav {
+  display: none;
+  position: absolute;
+  top: 43px;
+  left: 0px;
+  background: #343a40;
+  z-index: 999999;
+  border-top: #ffc107 solid 7px;
+  width: 100%;
+}
+nav.nav-produtos ul.nav li ul.nav li {
+  padding: 10px 25px;
+}
 
 /*# sourceMappingURL=style.css.map */

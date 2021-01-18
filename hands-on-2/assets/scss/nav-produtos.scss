@@ -1,0 +1,45 @@
+nav.nav-produtos {
+    background: $cor-secundaria;
+    color: $cor-background;
+    cursor: pointer;
+    
+    ul.nav{
+       
+        li{
+            position: relative;
+            padding: 10px;
+            width: 200px;
+            svg {
+                margin-right: 5px;
+            }
+            a {
+                text-decoration: none;
+                color: $cor-background;
+            }
+
+            &:hover {
+                background: black;
+                color: $cor-background;
+                ul.nav {
+                display: block;
+                } 
+            }
+  
+            ul.nav{
+                display: none;
+                position: absolute;
+                top: 43px;
+                left: 0px;
+                background: $cor-secundaria;
+                z-index: 999999;
+                border-top: $cor-primaria solid 7px;
+                width: 100%;
+                li {
+                    padding: 10px 25px;
+                }
+            }
+           
+           
+        }
+    }
+}
