@@ -1,0 +1,33 @@
+.banners-statico {
+
+
+    .promo12x {
+    background: $cor-secundaria;
+    background-image: url('../images/background-parcelas.png');
+    background-size: cover;
+    
+    //padding: 5px 0;
+
+    }
+    .todobr {
+    background: $cor-primaria;
+    background-image: url('../images/background-entrega.png');
+    background-size: cover;
+    }
+}
+
+.promo12x, .todobr {
+ //   background-size: cover;
+ height: 105px;
+ padding: 20px 60px;
+ color: $cor-background;
+
+ svg, h3 {
+     margin: 0;
+     padding: 0;
+     font-size: 1.5em;
+     margin-left: 15px;
+ }
+    
+}
+
