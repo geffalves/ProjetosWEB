@@ -10464,4 +10464,47 @@ nav.nav-produtos ul.nav li ul.nav li {
   margin-left: 15px;
 }
 
+.produtos-itens {
+  padding: 10px 0 0 0;
+}
+.produtos-itens h4, .produtos-itens h6 {
+  color: #343a40;
+}
+.produtos-itens h6 {
+  color: #343a40;
+  font-size: 20px;
+  font-weight: bold;
+}
+.produtos-itens .produtos-stars {
+  color: #ffc107;
+}
+.produtos-itens .produtos-stars i {
+  color: #343a40;
+}
+
+footer h5 {
+  color: #ffc107;
+}
+footer p {
+  color: #fff;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #ffc107;
+}
+
+@media (max-width: 766px) {
+  header form {
+    margin: 20px;
+  }
+}
+@media (max-width: 986px) {
+  header ul li {
+    margin: 10px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

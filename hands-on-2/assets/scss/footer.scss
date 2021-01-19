@@ -1,0 +1,17 @@
+footer {
+    h5 {
+        color: $cor-primaria;
+    }
+    p {
+        color: $cor-background;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        &:hover{
+        color: $cor-primaria;
+        
+    }
+   
+    }
+}
